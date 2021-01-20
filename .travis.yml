@@ -2,8 +2,11 @@ version: ~> 1.0
 dist: xenial
 language: python
 cache: pip
+virt: lxd
+group: edge
 arch:
-   - arm64
+   - amd64
+   - arm64-graviton2
 
 python:
   # Available Python (PyPy) can be listed by:
